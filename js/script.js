@@ -13,7 +13,7 @@ let finishInterval = null;
 let violationCooldown = false;
 
 // Jika ingin memakai exec URL langsung dari client, pasang di sini:
-const SHEETS_API = "https://script.google.com/macros/s/AKfycbxNmk3IjAL9CT7TB5Qd0pBQ3ovkl-zabhEH6rjDKecLiaMAvurZZXqltEFgz0KPjhPp/exec";
+const SHEETS_API = "https://script.google.com/macros/s/AKfycbyoC5MJtnBbBCSagkIsjM1dGHl6xUwhsCcUfDUQ5ht5pqPMhxpHi9tLzg0yVGessESB/exec";
 
 async function fetchJson(url) {
     const res = await fetch(url);
