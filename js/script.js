@@ -1,18 +1,3 @@
-let configs = [];
-let activeMapel = null;
-let questions = [];
-let currentIndex = 0;
-let lastQuestionIndex = -1;
-let userAnswers = {};
-let doubtful = {};
-let timeLeft = 0;
-let isExamActive = false;
-let violationCount = 0;
-let isSubmitting = false;
-let finishInterval = null;
-let violationCooldown = false;
-
-// Jika ingin memakai exec URL langsung dari client, pasang di sini:
 const SHEETS_API = "https://script.google.com/macros/s/AKfycbyoC5MJtnBbBCSagkIsjM1dGHl6xUwhsCcUfDUQ5ht5pqPMhxpHi9tLzg0yVGessESB/exec";
 
 async function fetchJson(url) {
