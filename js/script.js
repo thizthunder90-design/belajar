@@ -1,4 +1,4 @@
-const SHEETS_API = "https://script.google.com/macros/s/AKfycbwpU6xx-fmVJg5JXeuuhSiwu7GnZWqNglKFpV9sGW3-1t-hLpi0g51ZoVCKrYhonRxV/exec";
+const SHEETS_API = "https://script.google.com/macros/s/AKfycbzDbNIchhQPV7ArylSoycP-Pb9VW-1olZc9WptkW6_q9uH4MjhDQO1EHi7QtpA7JTMA/exec";
 
 let configs = [];
 let allowedStudents = [];
