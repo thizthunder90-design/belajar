@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "soal": "Secara bahasa, kata \"Al-Qur'an\" merupakan bentuk masdar dari kata qara'a yang berarti...",
+    "pilihan": {
+      "A": "Tulisan",
+      "B": "Bacaan",
+      "C": "Pedoman",
+      "D": "Cahaya",
+      "E": "Mukjizat"
+    },
+    "kunci": "B"
+  },
+  {
+    "id": 2,
+    "soal": "Pengertian Al-Qur'an menurut istilah adalah firman Allah SWT yang diturunkan kepada Nabi Muhammad SAW melalui malaikat Jibril dan bernilai ibadah bagi yang membacanya. Di bawah ini yang bukan termasuk karakteristik Al-Qur'an adalah...",
+    "pilihan": {
+      "A": "Diturunkan secara berangsur-angsur",
+      "B": "Terjaga keasliannya hingga akhir zaman",
+      "C": "Hanya berlaku untuk bangsa Arab",
+      "D": "Menjadi mukjizat terbesar Nabi Muhammad SAW",
+      "E": "Diawali dengan surah Al-Fatihah dan diakhiri surah An-Nas"
+    },
+    "kunci": "C"
+  },
+  {
+    "id": 3,
+    "soal": "Al-Qur'an memiliki nama lain \"Al-Furqan\". Nama ini memiliki arti...",
+    "pilihan": {
+      "A": "Obat penawar",
+      "B": "Pemberi petunjuk",
+      "C": "Peringatan",
+      "D": "Pembeda antara yang hak dan batil",
+      "E": "Kitab yang mulia"
+    },
+    "kunci": "D"
+  },
+  {
+    "id": 4,
+    "soal": "Perhatikan beberapa nama lain Al-Qur'an berikut!\n1) Al-Kitab\n2) Asy-Syifa'\n3) Adz-Dzikr\n4) Al-Huda\nNama lain Al-Qur'an yang berarti \"Penyembuh atau Obat\" ditunjukkan oleh nomor...",
+    "pilihan": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4",
+      "E": "1 dan 3"
+    },
+    "kunci": "B"
+  },
+  {
+    "id": 5,
+    "soal": "Di bawah ini merupakan pengertian Hadis secara bahasa, kecuali...",
+    "pilihan": {
+      "A": "Baru (jadid)",
+      "B": "Dekat (qarib)",
+      "C": "Berita (khabar)",
+      "D": "Kuno (qadim)",
+      "E": "Cerita (hikayah)"
+    },
+    "kunci": "D"
+  },
+  {
+    "id": 6,
+    "soal": "Segala tingkah laku Nabi Muhammad SAW yang sampaikan kepada para sahabat, baik berupa perkataan, perbuatan, maupun ketetapan disebut...",
+    "pilihan": {
+      "A": "Sunnah",
+      "B": "Atsar",
+      "C": "Khabar",
+      "D": "Hadis",
+      "E": "Sanad"
+    },
+    "kunci": "D"
+  },
+  {
+    "id": 7,
+    "soal": "Jika ada seorang sahabat melakukan suatu perbuatan di hadapan Nabi Muhammad SAW, lalu Nabi hanya diam dan tidak melarangnya, maka hal tersebut dikategorikan sebagai...",
+    "pilihan": {
+      "A": "Hadis Qauliyaah",
+      "B": "Hadis Fi'liyah",
+      "C": "Hadis Taqririyah",
+      "D": "Hadis Qudsi",
+      "E": "Hadis Nabawi"
+    },
+    "kunci": "C"
+  },
+  {
+    "id": 8,
+    "soal": "Firman Allah SWT yang redaksinya disusun sendiri oleh Nabi Muhammad SAW dan tidak termasuk dalam bagian ayat Al-Qur'an disebut...",
+    "pilihan": {
+      "A": "Hadis Mutawatir",
+      "B": "Hadis Fi'liyah",
+      "C": "Hadis Qudsi",
+      "D": "Hadis Ahad",
+      "E": "Hadis Hasan"
+    },
+    "kunci": "C"
+  },
+  {
+    "id": 9,
+    "soal": "Silsilah atau runtunan para perawi yang menyampaikan teks hadis dari sumber pertama hingga sampai kepada kita disebut...",
+    "pilihan": {
+      "A": "Matan",
+      "B": "Rawi",
+      "C": "Sanad",
+      "D": "Rijalul Hadis",
+      "E": "Takhrij"
+    },
+    "kunci": "C"
+  },
+  {
+    "id": 10,
+    "soal": "Kalimat atau redaksi ucapan yang terletak di bagian akhir dari sebuah runtunan sanad disebut...",
+    "pilihan": {
+      "A": "Matan",
+      "B": "Sanad",
+      "C": "Rawi",
+      "D": "Riwayat",
+      "E": "Musnad"
+    },
+    "kunci": "A"
+  },
+  {
+    "id": 11,
+    "soal": "Orang yang menerima, menghafal, dan membukukan hadis ke dalam suatu kitab hadis dinamakan...",
+    "pilihan": {
+      "A": "Sanad",
+      "B": "Matan",
+      "C": "Mudawwin",
+      "D": "Rawi",
+      "E": "Mufassir"
+    },
+    "kunci": "D"
+  },
+  {
+    "id": 12,
+    "soal": "Salah satu fungsi utama Hadis terhadap Al-Qur'an adalah Bayan al-Taqrir, yang artinya...",
+    "pilihan": {
+      "A": "Membatasi keumuman ayat Al-Qur'an",
+      "B": "Mengukuhkan atau memperkuat pernyataan yang ada dalam Al-Qur'an",
+      "C": "Menjelaskan ayat Al-Qur'an yang masih global (mujmal)",
+      "D": "Menciptakan hukum baru yang belum ada di Al-Qur'an",
+      "E": "Menghapus hukum yang ada di Al-Qur'an"
+    },
+    "kunci": "B"
+  },
+  {
+    "id": 13,
+    "soal": "Di dalam Al-Qur'an terdapat perintah untuk melaksanakan shalat, namun tata caranya tidak dijelaskan secara rinci. Kemudian Hadis menjelaskan tata cara shalat tersebut. Fungsi hadis dalam hal ini disebut...",
+    "pilihan": {
+      "A": "Bayan At-Tafsir/Al-Mujmal",
+      "B": "Bayan At-Tasyri'",
+      "C": "Bayan At-Taqrir",
+      "D": "Bayan An-Nasakh",
+      "E": "Bayan Al-Isyarah"
+    },
+    "kunci": "A"
+  },
+  {
+    "id": 14,
+    "soal": "Fungsi hadis sebagai Bayan At-Tasyri' berarti hadis berfungsi untuk...",
+    "pilihan": {
+      "A": "Menjelaskan ayat yang samar",
+      "B": "Menetapkan hukum baru yang tidak terdapat dalam Al-Qur'an",
+      "C": "Memperkuat hukum yang sudah ada",
+      "D": "Menghapus hukum pada masa lalu",
+      "E": "Mengkhususkan ayat yang umum"
+    },
+    "kunci": "B"
+  },
+  {
+    "id": 15,
+    "soal": "Al-Qur'an dan Hadis merupakan dua sumber hukum Islam yang tidak dapat dipisahkan. Kedudukan Hadis terhadap Al-Qur'an adalah sebagai sumber hukum Islam yang ke...",
+    "pilihan": {
+      "A": "Satu",
+      "B": "Dua",
+      "C": "Tiga",
+      "D": "Empat",
+      "E": "Lima"
+    },
+    "kunci": "B"
+  },
+  {
+    "id": 16,
+    "soal": "Berdasarkan kualitasnya, hadis yang memenuhi syarat sahih namun ada salah satu perawinya yang kurang kuat hafalannya (dhabit) disebut hadis...",
+    "pilihan": {
+      "A": "Sahih",
+      "B": "Hasan",
+      "C": "Dhaif",
+      "D": "Maudhu'",
+      "E": "Matruk"
+    },
+    "kunci": "B"
+  },
+  {
+    "id": 17,
+    "soal": "Hadis yang mengalami kecacatan pada sanad atau matannya sehingga tidak dapat dijadikan sebagai hujah/dasar hukum disebut hadis...",
+    "pilihan": {
+      "A": "Mutawatir",
+      "B": "Masyhur",
+      "C": "Sahih",
+      "D": "Dhaif",
+      "E": "Aziz"
+    },
+    "kunci": "D"
+  },
+  {
+    "id": 18,
+    "soal": "Kitab-kitab hadis utama yang disusun oleh enam imam ahli hadis yang terkenal sering disebut dengan istilah...",
+    "pilihan": {
+      "A": "Kutubus Sittah",
+      "B": "Kutubut Tis'ah",
+      "C": "Musnad Ahmad",
+      "D": "Shahihain",
+      "E": "Sunan Arba'ah"
+    },
+    "kunci": "A"
+  },
+  {
+    "id": 19,
+    "soal": "Pokok-pokok ajaran Al-Qur'an meliputi beberapa aspek. Aspek yang mengatur tentang tatacara beribadah dan hubungan sesama manusia disebut...",
+    "pilihan": {
+      "A": "Aqidah",
+      "B": "Syariah / Muamalah",
+      "C": "Akhlak",
+      "D": "Tarikh",
+      "E": "Wa'ad dan Wa'id"
+    },
+    "kunci": "B"
+  },
+  {
+    "id": 20,
+    "soal": "Kisah-kisah umat terdahulu yang terdapat dalam Al-Qur'an bertujuan untuk memberikan pelajaran (ibrah) bagi umat manusia. Aspek ini dalam pokok ajaran Al-Qur'an disebut...",
+    "pilihan": {
+      "A": "Aqidah",
+      "B": "Akhlak",
+      "C": "Tarikh / Qishash",
+      "D": "Hukum",
+      "E": "Sains"
+    },
+    "kunci": "C"
+  },
+  {
+    "id": 21,
+    "soal": "Perilaku ikhlas merupakan salah satu inti ajaran Islam. Secara bahasa, ikhlas berarti...",
+    "pilihan": {
+      "A": "Mengharap pujian orang lain",
+      "B": "Memurnikan atau bersih dari campuran",
+      "C": "Berserah diri sepenuhnya",
+      "D": "Bersungguh-sungguh dalam bekerja",
+      "E": "Berbuat baik kepada sesama"
+    },
+    "kunci": "B"
+  },
+  {
+    "id": 22,
+    "soal": "Seseorang yang melakukan ibadah dengan tujuan agar dilihat dan dipuji oleh orang lain disebut telah berbuat...",
+    "pilihan": {
+      "A": "Riya'",
+      "B": "Sum'ah",
+      "C": "Ujub",
+      "D": "Takabur",
+      "E": "Hasad"
+    },
+    "kunci": "A"
+  },
+  {
+    "id": 23,
+    "soal": "Lawan kata dari sifat ikhlas dalam beramal yang berkaitan dengan pendengaran (ingin mendengarkan amal kebaikannya disebut orang lain) adalah...",
+    "pilihan": {
+      "A": "Riya'",
+      "B": "Sum'ah",
+      "C": "Takabur",
+      "D": "Namimah",
+      "E": "Ghibah"
+    },
+    "kunci": "B"
+  },
+  {
+    "id": 24,
+    "soal": "Allah SWT tidak melihat kepada bentuk rupa dan harta kekayaan hamba-Nya, melainkan Allah SWT melihat kepada...",
+    "pilihan": {
+      "A": "Jabatan dan nasabnya",
+      "B": "Kepandaian dan kecerdasannya",
+      "C": "Hati dan amal perbuatannya",
+      "D": "Pengalaman dan status sosialnya",
+      "E": "Pakaian dan penampilannya"
+    },
+    "kunci": "C"
+  },
+  {
+    "id": 25,
+    "soal": "Berdasarkan QS. Al-An'am ayat 162, pernyataan yang benar tentang komitmen ibadah seorang muslim adalah...",
+    "pilihan": {
+      "A": "Shalat dan ibadah dilakukan jika waktu luang",
+      "B": "Hidup dan mati diserahkan kepada nasib",
+      "C": "Shalat, ibadah, hidup, dan mati hanya untuk Allah SWT",
+      "D": "Mencari dunia sebanyak-banyaknya tanpa batas",
+      "E": "Beribadah demi mendapatkan pujian masyarakat"
+    },
+    "kunci": "C"
+  },
+  {
+    "id": 26,
+    "soal": "Kata \"tobat\" secara bahasa berasal dari kata taba - yatubu yang berarti...",
+    "pilihan": {
+      "A": "Menyesal",
+      "B": "Berjanji",
+      "C": "Kembali",
+      "D": "Meminta maaf",
+      "E": "Berhenti"
+    },
+    "kunci": "C"
+  },
+  {
+    "id": 27,
+    "soal": "Menyesali perbuatan maksiat yang telah dilakukan, bertekad tidak mengulanginya, dan segera berhenti dari maksiat tersebut merupakan rukun dari...",
+    "pilihan": {
+      "A": "Tobat Nasuha",
+      "B": "Syarat sah shalat",
+      "C": "Rukun Islam",
+      "D": "Janji setia",
+      "E": "Hijrah"
+    },
+    "kunci": "A"
+  },
+  {
+    "id": 28,
+    "soal": "Jika dosa atau kesalahan yang dilakukan berkaitan dengan sesama manusia, maka syarat tobat yang harus ditambah adalah...",
+    "pilihan": {
+      "A": "Melakukan shalat sunnah tobat 100 rakaat",
+      "B": "Meminta maaf atau mengembalikan hak orang yang dizalimi",
+      "C": "Membayar denda berupa uang yang banyak",
+      "D": "Melakukan puasa kifarat selama dua bulan",
+      "E": "Mengasingkan diri ke tempat yang sepi"
+    },
+    "kunci": "B"
+  },
+  {
+    "id": 29,
+    "soal": "Allah SWT berfirman dalam QS. At-Tahrim ayat 8 memerintahkan orang-orang beriman untuk bertobat dengan \"Tobatan Nasuha\". Arti dari Tobatan Nasuha adalah...",
+    "pilihan": {
+      "A": "Tobat yang sementara",
+      "B": "Tobat yang dicicil",
+      "C": "Tobat yang semurni-murninya / sesungguh-sungguhnya",
+      "D": "Tobat di usia tua",
+      "E": "Tobat menjelang tidur"
+    },
+    "kunci": "C"
+  },
+  {
+    "id": 30,
+    "soal": "Batas akhir diterimanya tobat bagi setiap individu manusia adalah sebelum...",
+    "pilihan": {
+      "A": "Matahari terbit dari sebelah barat",
+      "B": "Menginjak usia dewasa",
+      "C": "Terjadinya kiamat kubra",
+      "D": "Nyawa sampai di tenggorokan (ghargharah)",
+      "E": "Memasuki bulan Ramadhan"
+    },
+    "kunci": "D"
+  },
+  {
+    "id": 31,
+    "soal": "Sebagai khalifah di bumi, manusia dilarang melakukan perusakan di atas bumi setelah Allah SWT menciptakannya dengan baik. Hal ini ditegaskan dalam surah...",
+    "pilihan": {
+      "A": "Al-A'raf ayat 56",
+      "B": "Al-Baqarah ayat 2",
+      "C": "Ali Imran ayat 110",
+      "D": "An-Nisa ayat 59",
+      "E": "Al-Maidah ayat 3"
+    },
+    "kunci": "A"
+  },
+  {
+    "id": 32,
+    "soal": "Perhatikan QS. Ar-Rum ayat 41: \"Telah tampak kerusakan di darat dan di laut disebabkan karena perbuatan tangan manusia...\" Ayat ini menjelaskan bahwa penyebab utama kerusakan alam adalah...",
+    "pilihan": {
+      "A": "Bencana alam murni",
+      "B": "Faktor usia bumi yang sudah tua",
+      "C": "Perilaku dan keserakahan manusia",
+      "D": "Pengaruh gaya gravitasi bumi",
+      "E": "Ujian dari Allah semata tanpa sebab"
+    },
+    "kunci": "C"
+  },
+  {
+    "id": 33,
+    "soal": "Menjaga kelestarian lingkungan hidup termasuk dalam pengamalan prinsip Islam, sebab bumi diciptakan untuk...",
+    "pilihan": {
+      "A": "Dihabiskan sumber dayanya tanpa sisa",
+      "B": "Dikuasai oleh golongan manusia yang kuat saja",
+      "C": "Kesejahteraan hidup manusia dan makhluk lainnya dengan bijaksana",
+      "D": "Dijadikan tempat ajang eksploitasi besar-besaran",
+      "E": "Diabaikan begitu saja tanpa dirawat"
+    },
+    "kunci": "C"
+  },
+  {
+    "id": 34,
+    "soal": "Salah satu bentuk kepedulian Rasulullah SAW terhadap lingkungan hidup yang bernilai sedekah berdasarkan hadis adalah...",
+    "pilihan": {
+      "A": "Membuang sampah pada tempatnya",
+      "B": "Menanam pohon atau bercocok tanam yang hasilnya dimakan makhluk lain",
+      "C": "Membangun gedung-gedung yang megah dan tinggi",
+      "D": "Menguras sumur yang kering",
+      "E": "Memburu hewan liar di hutan bebas"
+    },
+    "kunci": "B"
+  },
+  {
+    "id": 35,
+    "soal": "Perilaku hidup bersih merupakan bagian dari iman. Hadis yang menyatakan bahwa \"Kebersihan itu adalah sebagian dari iman\" menggunakan istilah kata...",
+    "pilihan": {
+      "A": "Al-Ihsan",
+      "B": "At-Thuhuru",
+      "C": "Al-Barakah",
+      "D": "Ad-Dinu",
+      "E": "As-Shabru"
+    },
+    "kunci": "B"
+  },
+  {
+    "id": 36,
+    "soal": "Perintah untuk mengonsumsi makanan yang halal dan thayyib terdapat dalam Al-Qur'an. Arti dari kata thayyib adalah...",
+    "pilihan": {
+      "A": "Mahal Harganya",
+      "B": "Baik, bergizi, dan sehat",
+      "C": "Berasal dari luar negeri",
+      "D": "Masih segar dan mentah",
+      "E": "Disukai oleh banyak orang"
+    },
+    "kunci": "B"
+  },
+  {
+    "id": 37,
+    "soal": "Berdasarkan QS. Al-Baqarah ayat 168, Allah SWT melarang manusia mengikuti langkah-langkah setan dalam hal memilih makanan. Mengapa demikian? Karena setan adalah...",
+    "pilihan": {
+      "A": "Musuh yang nyata bagi manusia",
+      "B": "Makhluk yang gaib",
+      "C": "Makhluk yang diciptakan dari api",
+      "D": "Penggoda di waktu malam",
+      "E": "Pemimpin orang-orang kafir"
+    },
+    "kunci": "A"
+  },
+  {
+    "id": 38,
+    "soal": "Dampak negatif dari mengonsumsi makanan dan minuman yang haram bagi kehidupan seorang muslim di antaranya adalah...",
+    "pilihan": {
+      "A": "Membuat tubuh menjadi sangat kuat",
+      "B": "Mempercepat datangnya rezeki",
+      "C": "Menyebabkan doa-doanya terhalang/tidak dikabulkan",
+      "D": "Meningkatkan kecerdasan berpikir",
+      "E": "Disukai oleh lingkungan sekitar"
+    },
+    "kunci": "C"
+  },
+  {
+    "id": 39,
+    "soal": "Islam sangat menganjurkan umatnya untuk bekerja keras demi memenuhi kebutuhan hidup. Kebalikan dari sikap kerja keras dan mandiri adalah...",
+    "pilihan": {
+      "A": "Qana'ah",
+      "B": "Tawakal",
+      "C": "Istiqamah",
+      "D": "Meminta-minta (mengemis) tanpa uzur",
+      "E": "Zuhud"
+    },
+    "kunci": "D"
+  },
+  {
+    "id": 40,
+    "soal": "Rasulullah SAW bersabda bahwa makanan yang paling baik yang dimakan oleh seseorang adalah makanan yang berasal dari...",
+    "pilihan": {
+      "A": "Pemberian orang tuanya",
+      "B": "Hasil warisan leluhurnya",
+      "C": "Hasil kerja keras tangannya sendiri",
+      "D": "Hasil undian berhadiah",
+      "E": "Bantuan sosial pemerintah"
+    },
+    "kunci": "C"
+  },
+  {
+    "id": 41,
+    "soal": "Di bawah ini yang bukan merupakan adab dan etika mencari ilmu menurut ajaran Islam adalah...",
+    "pilihan": {
+      "A": "Niat yang ikhlas karena Allah SWT",
+      "B": "Menghormati guru dan ahli ilmu",
+      "C": "Diam dan mendengarkan saat ilmu disampaikan",
+      "D": "Berniat agar bisa menyombongkan diri di depan orang bodoh",
+      "E": "Mengamalkan ilmu yang telah diperoleh"
+    },
+    "kunci": "D"
+  },
+  {
+    "id": 42,
+    "soal": "Allah SWT akan mengangkat derajat orang-orang yang beriman dan orang-orang yang...",
+    "pilihan": {
+      "A": "Memiliki harta melimpah",
+      "B": "Memiliki pangkat yang tinggi",
+      "C": "Diberi ilmu pengetahuan beberapa derajat",
+      "D": "Memiliki fisik yang kuat",
+      "E": "Memiliki keturunan bangsawan"
+    },
+    "kunci": "C"
+  },
+  {
+    "id": 43,
+    "soal": "Hukum menuntut ilmu agama yang bersifat mendasar (seperti tata cara shalat, bersuci, dan akidah dasar) bagi setiap individu muslim adalah...",
+    "pilihan": {
+      "A": "Fardhu Kifayah",
+      "B": "Fardhu 'Ain",
+      "C": "Sunnah Muakkad",
+      "D": "Mubah",
+      "E": "Makruh"
+    },
+    "kunci": "B"
+  },
+  {
+    "id": 44,
+    "soal": "Menuntut ilmu keilmuan yang bersifat umum dan dibutuhkan oleh kemaslahatan umat banyak (seperti ilmu kedokteran, nuklir, dan penerbangan) hukumnya adalah...",
+    "pilihan": {
+      "A": "Fardhu 'Ain",
+      "B": "Fardhu Kifayah",
+      "C": "Sunnah Ghairu Muakkad",
+      "D": "Haram",
+      "E": "Makruh"
+    },
+    "kunci": "B"
+  },
+  {
+    "id": 45,
+    "soal": "Manakah di antara pernyataan berikut yang merupakan hikmah dari memiliki ilmu pengetahuan?",
+    "pilihan": {
+      "A": "Membuat seseorang merasa lebih hebat dari orang lain",
+      "B": "Menjadi jalan kemudahan menuju surga Allah SWT",
+      "C": "Membantu menumpuk harta dengan cara apa saja",
+      "D": "Menimbulkan rasa takut kepada sesama manusia",
+      "E": "Memperoleh pujian yang terus menerus dari masyarakat"
+    },
+    "kunci": "B"
+  },
+  {
+    "id": 46,
+    "soal": "Sikap menyekutukan Allah SWT dengan sesuatu yang lain dalam beribadah disebut...",
+    "pilihan": {
+      "A": "Nifak",
+      "B": "Syirik",
+      "C": "Fasik",
+      "D": "Kufur",
+      "E": "Ridat"
+    },
+    "kunci": "B"
+  },
+  {
+    "id": 47,
+    "soal": "Perbuatan dosa besar yang tidak akan diampuni oleh Allah SWT jika pelakunya meninggal dunia sebelum sempat bertobat adalah...",
+    "pilihan": {
+      "A": "Mencuri",
+      "B": "Berbohong",
+      "C": "Syirik",
+      "D": "Memakan riba",
+      "E": "Durhaka kepada orang tua"
+    },
+    "kunci": "C"
+  },
+  {
+    "id": 48,
+    "soal": "Pembagian syirik ada dua, yaitu syirik besar (jali) dan syirik kecil (khafi). Contoh dari perbuatan syirik kecil adalah...",
+    "pilihan": {
+      "A": "Menyembah berhala atau patung",
+      "B": "Memohon rezeki kepada dukun",
+      "C": "Riya' (ingin dipuji orang) saat shalat",
+      "D": "Menganggap ada tuhan selain Allah",
+      "E": "Memberikan sesajen ke pohon besar"
+    },
+    "kunci": "C"
+  },
+  {
+    "id": 49,
+    "soal": "Sikap batin seseorang yang menampakkan keimanan di hadapan orang lain, namun menyembunyikan kekafiran di dalam hatinya disebut...",
+    "pilihan": {
+      "A": "Syirik",
+      "B": "Nifak (Munafik)",
+      "C": "Fasik",
+      "D": "Kufur",
+      "E": "Murtad"
+    },
+    "kunci": "B"
+  },
+  {
+    "id": 50,
+    "soal": "Berdasarkan hadis Nabi SAW, tanda-tanda orang munafik ada tiga, yaitu...",
+    "pilihan": {
+      "A": "Jika berbicara bohong, jika berjanji ingkar, dan jika dipercaya khianat",
+      "B": "Jika shalat terlambat, jika puasa berbuka sebelum waktunya, dan jika zakat kikir",
+      "C": "Jika bertemu cemberut, jika berbicara kasar, dan jika berjalan sombong",
+      "D": "Jika kaya sombong, jika miskin mengeluh, dan jika sukses lupa diri",
+      "E": "Jika diberi nasihat marah, jika berdebat curang, dan jika kalah mendendam"
+    },
+    "kunci": "A"
+  }
+]

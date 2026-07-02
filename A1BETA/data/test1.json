@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "soal": "Perhatikan QS. Al-Anfal: 2 berikut!\n\nإِنَّمَا الْمُؤْمِنُونَ الَّذِينَ إِذَا ذُكِرَ اللَّهُ وَجِلَتْ قُلُوبُهُمْ ...\n\nBerdasarkan ayat tersebut, salah satu ciri utama orang yang beriman ketika diperdengarkan nama Allah SWT adalah...",
+    "pilihan": {
+      "A": "Bergetar hatinya karena mengagungkan-Nya",
+      "B": "Langsung mendirikan salat khusyuk",
+      "C": "Menangis tersedu-sedu karena takut",
+      "D": "Menghafal seluruh isi Al-Qur'an",
+      "E": "Menyedekahkan seluruh hartanya"
+    },
+    "kunci": "A"
+  },
+  {
+    "id": 2,
+    "soal": "Fungsi Al-Qur'an sebagai 'Asy-Syifa' secara aplikatif dalam kehidupan sehari-hari tercermin pada perilaku...",
+    "pilihan": {
+      "A": "Menjadikan Al-Qur'an sebagai pajangan di dinding rumah agar aman dari musibah",
+      "B": "Membaca dan mentadaburi Al-Qur'an untuk menenteramkan jiwa yang sedang gelisah",
+      "C": "Menggunakan ayat Al-Qur'an untuk jimat keberuntungan usaha",
+      "D": "Menghafal Al-Qur'an hanya demi mendapatkan beasiswa pendidikan",
+      "E": "Membaca Al-Qur'an dengan suara keras agar dipuji oleh tetangga sekitar"
+    },
+    "kunci": "B"
+  },
+  {
+    "id": 3,
+    "soal": "Hadis merupakan sumber hukum Islam kedua. Secara garis besar, fungsi hadis terhadap Al-Qur'an adalah sebagai 'Bayan At-Taqrir', yang berarti...",
+    "pilihan": {
+      "A": "Membatasi keumuman makna yang ada dalam Al-Qur'an",
+      "B": "Menciptakan hukum baru yang belum pernah disinggung dalam Al-Qur'an",
+      "C": "Memperkuat atau mengukuhkan hukum yang telah ditetapkan dalam Al-Qur'an",
+      "D": "Merinci tata cara ibadah yang masih bersifat global di Al-Qur'an",
+      "E": "Menghapus hukum lama yang dianggap sudah tidak relevan"
+    },
+    "kunci": "C"
+  },
+  {
+    "id": 4,
+    "soal": "Perhatikan lafal berikut: (مِنْ أَهْلِ)\nHukum bacaan tajwid yang terjadi pada lafal tersebut secara berurutan adalah...",
+    "pilihan": {
+      "A": "Izhar halqi dan Mad Thabi'i",
+      "B": "Idgam bigunnah dan Mad Wajib Muttasil",
+      "C": "Idgam bilagunnah dan Mad Jaiz Munfasil",
+      "D": "Ikhfa haqiqi dan Mad Badal",
+      "E": "Iqlab dan Mad Arid Lissukun"
+    },
+    "kunci": "A"
+  },
+  {
+    "id": 5,
+    "soal": "Ketika ada huruf Nun Sukun (نْ) bertemu dengan huruf Ya (ي) dalam satu kata (tidak berpisah kata) seperti pada lafal (دُنْيَا), hukum bacaannya adalah...",
+    "pilihan": {
+      "A": "Idgam bigunnah dengan mendengung",
+      "B": "Izhar wajib / mutlaq dibaca jelas",
+      "C": "Ikhfa haqiqi dibaca samar",
+      "D": "Iqlab diganti suara mim",
+      "E": "Idgam bilagunnah tanpa mendengung"
+    },
+    "kunci": "B"
+  },
+  {
+    "id": 6,
+    "soal": "Perhatikan QS. Al-Humazah: 1-2. Ayat tersebut memberikan peringatan keras kepada manusia yang memiliki penyakit sosial berupa...",
+    "pilihan": {
+      "A": "Gemar memamerkan ibadah salatnya ke orang lain",
+      "B": "Suka mengumpat, mencela, dan sibuk mengumpulkan serta menghitung harta",
+      "C": "Enggan memberikan bantuan barang berguna kepada tetangga",
+      "D": "Suka melakukan kecurangan dalam menimbang barang dagangan",
+      "E": "Memakan harta anak yatim secara zalim"
+    },
+    "kunci": "B"
+  },
+  {
+    "id": 7,
+    "soal": "Dalam sebuah hadis riwayat Muslim dari Abu Hurairah, Rasulullah SAW bersabda bahwa Allah tidak melihat kepada rupa dan harta kalian, melainkan Allah melihat kepada...",
+    "pilihan": {
+      "A": "Nasab keturunan dan pangkat jabatan",
+      "B": "Luasnya ilmu dan banyaknya pengikut",
+      "C": "Indahnya pakaian dan kefasihan lisan",
+      "D": "Hati dan amal perbuatan kalian",
+      "E": "Jumlah rakaat salat dan kekayaan bersedekah"
+    },
+    "kunci": "D"
+  },
+  {
+    "id": 8,
+    "soal": "Perhatikan lafal berikut: (تنزيل)\nHukum Nun Sukun bertemu dengan huruf Zai (ز) pada lafal tersebut dibaca dengan cara...",
+    "pilihan": {
+      "A": "Jelas di bibir tanpa dengung",
+      "B": "Memasukkan suara nun ke huruf berikutnya",
+      "C": "Mengubah suara nun menjadi suara mim",
+      "D": "Samar-samar disertai dengan gunnah (mendengung)",
+      "E": "Memantul dengan kuat (qalqalah)"
+    },
+    "kunci": "D"
+  },
+  {
+    "id": 9,
+    "soal": "Karakteristik utama yang membedakan hadis Qudsi dengan hadis Nabawi adalah...",
+    "pilihan": {
+      "A": "Hadis Qudsi sanadnya pasti mutawatir, sedangkan hadis Nabawi pasti ahad",
+      "B": "Hadis Qudsi maknanya dari Allah SWT namun redaksinya dari Rasulullah SAW",
+      "C": "Hadis Qudsi boleh dibaca di dalam ibadah salat sebagai pengganti surah pendek",
+      "D": "Hadis Nabawi seluruhnya berisi tentang hukum halal dan haram saja",
+      "E": "Hadis Qudsi hanya diriwayatkan oleh sahabat Abu Bakar Ash-Shiddiq"
+    },
+    "kunci": "B"
+  },
+  {
+    "id": 10,
+    "soal": "Di bawah ini yang merupakan contoh penerapan hukum bacaan Iqlab yang tepat terdapat pada lafal...",
+    "pilihan": {
+      "A": "أَنْ صَدُّوكُمْ",
+      "B": "مِنْ خَوْفٍ",
+      "C": "أَنْبِئْهُمْ",
+      "D": "مِنْ وَالٍ",
+      "E": "لَمْ يَلِدْ"
+    },
+    "kunci": "C"
+  },
+  {
+    "id": 11,
+    "soal": "Sikap toleransi antarumat beragama yang benar sesuai tuntunan QS. Al-Kafirun adalah...",
+    "pilihan": {
+      "A": "Mengikuti peribadatan agama lain demi menjaga perasaan tetangga",
+      "B": "Menghormati keyakinan orang lain tanpa mengorbankan akidah sendiri",
+      "C": "Membiarkan orang lain merusak tempat ibadah umat agama minoritas",
+      "D": "Memaksa orang lain untuk masuk ke dalam agama yang kita anut",
+      "E": "Menyatukan semua ajaran agama menjadi satu sistem kepercayaan baru"
+    },
+    "kunci": "B"
+  },
+  {
+    "id": 12,
+    "soal": "Perhatikan potongan hadis berikut: (المُسْلِمُ مَنْ سَلِمَ المُسْلِمُونَ مِنْ لِسَانِهِ وَيَدِهِ)\nBerdasarkan hadis tersebut, indikator muslim yang sejati adalah...",
+    "pilihan": {
+      "A": "Orang yang selalu beriktikaf di dalam masjid sepanjang hari",
+      "B": "Orang yang perkataan dan perbuatannya tidak menyakiti muslim lainnya",
+      "C": "Orang yang memiliki harta melimpah dan rajin berhaji setiap tahun",
+      "D": "Orang yang mampu menghafal ribuan jalur sanad hadis",
+      "E": "Orang yang berani berperang di medan laga tanpa rasa takut"
+    },
+    "kunci": "B"
+  },
+  {
+    "id": 13,
+    "soal": "Hukum membaca lafal (مِنْ لَدُنْهُ) adalah Idgam bilagunnah. Cara membaca lafal tersebut yang benar adalah...",
+    "pilihan": {
+      "A": "Min-ladunhu (nun dibaca sangat jelas)",
+      "B": "Mi---ladunhu (suara nun lebur ke lam disertai dengung 2 harakat)",
+      "C": "Mil-ladunhu (suara nun lebur ke lam secara total tanpa dengung)",
+      "D": "Mim-ladunhu (suara nun berubah total menjadi mim)",
+      "E": "Ming-ladunhu (suara nun dibaca samar menyentuh huruf lam)"
+    },
+    "kunci": "C"
+  },
+  {
+    "id": 14,
+    "soal": "Berdasarkan QS. Al-Baqarah: 177, kebajikan (al-birr) itu bukanlah sekadar menghadapkan wajah ke arah timur dan barat, melainkan mencakup hal berikut, kecuali...",
+    "pilihan": {
+      "A": "Beriman kepada Allah, hari akhir, malaikat, kitab, dan nabi",
+      "B": "Memberikan harta yang dicintainya kepada kerabat dan anak yatim",
+      "C": "Menunaikan zakat dan menepati janji apabila berjanji",
+      "D": "Sabar dalam kesempitan, penderitaan, dan dalam peperangan",
+      "E": "Mengumpulkan harta sebanyak-banyaknya untuk modal berdakwah"
+    },
+    "kunci": "E"
+  },
+  {
+    "id": 15,
+    "soal": "Lafal (مِنْ حَكِيمٍ) harus dibaca secara Izhar Halqi. Alasan logis penamaan 'Halqi' pada hukum bacaan tersebut karena...",
+    "pilihan": {
+      "A": "Huruf-hurufnya keluar dari rongga mulut",
+      "B": "Huruf-hurufnya keluar dari tenggorokan",
+      "C": "Huruf-hurufnya keluar dari pertemuan dua bibir",
+      "D": "Huruf-hurufnya dibaca dengan mendengung di hidung",
+      "E": "Huruf-hurufnya keluar dari sisi lidah yang menebal"
+    },
+    "kunci": "B"
+  },
+  {
+    "id": 16,
+    "soal": "Perhatikan QS. Ali Imran: 92 berikut!\nتَنَالُوا الْبِرَّ حَتَّى تُنْفِقُوا مِمَّا تُحِبُّونَ ...\nSyarat untuk mencapai kesempurnaan kebajikan (al-birr) menurut ayat tersebut adalah...",
+    "pilihan": {
+      "A": "Menginfakkan barang-barang sisa yang sudah tidak dipakai lagi",
+      "B": "Menginfakkan sebagian harta yang paling dicintai dan disukai",
+      "C": "Berinfak dalam jumlah yang sangat banyak agar diketahui khalayak",
+      "D": "Menunggu menjadi kaya raya terlebih dahulu sebelum mulai berinfak",
+      "E": "Menginfakkan harta milik orang lain yang kurang dimanfaatkan"
+    },
+    "kunci": "B"
+  },
+  {
+    "id": 17,
+    "soal": "Apabila ada Mad Thabi'i bertemu dengan huruf Hamzah (ء) dalam satu kata yang sama, maka hukum bacaannya disebut...",
+    "pilihan": {
+      "A": "Mad Jaiz Munfasil",
+      "B": "Mad Wajib Muttasil",
+      "C": "Mad Arid Lissukun",
+      "D": "Mad Lazim Muthaqqal Kilmi",
+      "E": "Mad Iwad"
+    },
+    "kunci": "B"
+  },
+  {
+    "id": 18,
+    "soal": "Perhatikan lafal berikut: (بِمَا أُنْزِلَ)\nPanjang bacaan yang paling utama untuk hukum Mad Jaiz Munfasil tersebut saat membaca dengan martabat tawasut (sedang) adalah...",
+    "pilihan": {
+      "A": "1 harakat",
+      "B": "2 harakat",
+      "C": "4 atau 5 harakat",
+      "D": "6 harakat",
+      "E": "7 harakat"
+    },
+    "kunci": "C"
+  },
+  {
+    "id": 19,
+    "soal": "Dampak buruk memakan makanan yang didapatkan dari hasil usaha yang haram (seperti korupsi atau mencuri) berdasarkan hadis Nabi SAW adalah...",
+    "pilihan": {
+      "A": "Tubuhnya menjadi rentan terkena penyakit menular secara langsung",
+      "B": "Doa-doanya menjadi sulit dikabulkan dan terhalang oleh Allah SWT",
+      "C": "Kecerdasannya akan menurun drastis dalam waktu singkat",
+      "D": "Kulit wajahnya akan berubah menjadi hitam kusam",
+      "E": "Semua harta bendanya akan habis terbakar di dunia"
+    },
+    "kunci": "B"
+  },
+  {
+    "id": 20,
+    "soal": "Perhatikan QS. Al-Baqarah: 168. Allah SWT memerintahkan manusia untuk memakan makanan yang memenuhi dua kriteria utama, yaitu...",
+    "pilihan": {
+      "A": "Lezat dan mahal harganya",
+      "B": "Halal dan tayyib (baik/bergizi)",
+      "C": "Instan dan mengenyangkan",
+      "D": "Tradisional dan bersih",
+      "E": "Import dan steril"
+    },
+    "kunci": "B"
+  },
+  {
+    "id": 21,
+    "soal": "Hukum bacaan Mad Arid Lissukun terjadi apabila ada...",
+    "pilihan": {
+      "A": "Mad Thabi'i bertemu hamzah di dua kata yang berbeda",
+      "B": "Huruf bertasydid setelah huruf mad dalam satu kata",
+      "C": "Mad Thabi'i berada di akhir ayat atau diikuti oleh huruf yang disukunkan karena waqaf",
+      "D": "Huruf fathatain di akhir ayat dan dibaca waqaf menggantikan tanwin",
+      "E": "Huruf berharakat sukun asli di tengah kata setelah huruf lin"
+    },
+    "kunci": "C"
+  },
+  {
+    "id": 22,
+    "soal": "Di antara lafal-lafal di bawah ini, manakah yang mengandung hukum bacaan Mad Iwad saat dibaca waqaf?",
+    "pilihan": {
+      "A": "السَّمَاءِ",
+      "B": "حَكِيمًا",
+      "C": "عَالَمِينَ",
+      "D": "خَوْفٍ",
+      "E": "جَاءَ"
+    },
+    "kunci": "B"
+  },
+  {
+    "id": 23,
+    "soal": "Perhatikan QS. Al-Ma'idah: 3. Berikut ini merupakan jenis makanan yang secara tegas diharamkan zatnya dalam ayat tersebut, kecuali...",
+    "pilihan": {
+      "A": "Bangkai binatang darat",
+      "B": "Darah yang mengalir",
+      "C": "Daging babi",
+      "D": "Daging hewan yang disembelih atas nama selain Allah",
+      "E": "Belalang dan ikan yang sudah mati di air"
+    },
+    "kunci": "E"
+  },
+  {
+    "id": 24,
+    "soal": "Dalam QS. Al-Baqarah: 261, Allah SWT mengumpamakan pahala orang yang menginfakkan hartanya di jalan Allah seperti...",
+    "pilihan": {
+      "A": "Sebuah pohon rindang yang berbuah sepanjang tahun tanpa berhenti",
+      "B": "Sebutir benih yang menumbuhkan tujuh bulir, pada tiap-tiap bulir ada seratus biji",
+      "C": "Air hujan yang mengalir deras di atas batu yang licin bersih",
+      "D": "Kebun subur yang terletak di dataran tinggi yang disiram hujan lebat",
+      "E": "Perahu kokoh yang membawa penumpang mengarungi lautan luas"
+    },
+    "kunci": "B"
+  },
+  {
+    "id": 25,
+    "soal": "Perhatikan potongan ayat berikut: (فِي جِيدِهَا حَبْلٌ). Lafal yang dikurung (جِيدِهَا) mengandung hukum bacaan...",
+    "pilihan": {
+      "A": "Mad Wajib Muttasil",
+      "B": "Mad Jaiz Munfasil",
+      "C": "Mad Thabi'i",
+      "D": "Mad Iwad",
+      "E": "Mad Badal"
+    },
+    "kunci": "C"
+  },
+  {
+    "id": 26,
+    "soal": "Larangan bersikap riya' (pamer) dan azha (menyakiti perasaan penerima) dalam menyalurkan infak ditegaskan Allah SWT dalam surah...",
+    "pilihan": {
+      "A": "QS. Al-Baqarah: 264",
+      "B": "QS. Al-Ma'un: 1-3",
+      "C": "QS. At-Takasur: 1-2",
+      "D": "QS. Al-Kafirun: 4",
+      "E": "QS. Ali Imran: 102"
+    },
+    "kunci": "A"
+  },
+  {
+    "id": 27,
+    "soal": "Resulullah SAW bersabda: 'Tangan yang di atas lebih baik daripada tangan yang di bawah.' Maksud filosofis dari 'tangan yang di bawah' adalah...",
+    "pilihan": {
+      "A": "Orang yang suka meminjamkan barang",
+      "B": "Orang yang memberi atau berinfak",
+      "C": "Orang yang meminta-minta atau menerima",
+      "D": "Orang yang menabung sebagian hartanya",
+      "E": "Orang yang menyembunyikan sedekahnya"
+    },
+    "kunci": "C"
+  },
+  {
+    "id": 28,
+    "soal": "Apabila fathatain pada huruf ta marbutah (ة) diwaqafkan di akhir kalimat, maka hukum bacaannya adalah...",
+    "pilihan": {
+      "A": "Dibaca Mad Iwad panjang 2 harakat",
+      "B": "Berubah bunyinya menjadi ha sukun tanpa mad",
+      "C": "Dibaca tetap tanwin seperti aslinya",
+      "D": "Dibaca panjang 6 harakat disertai mendengung",
+      "E": "Melebur ke huruf awal ayat berikutnya"
+    },
+    "kunci": "B"
+  },
+  {
+    "id": 29,
+    "soal": "Seseorang yang terbiasa mengonsumsi makanan haram akan memicu perilaku syetan dalam dirinya. Hal ini dikarenakan makanan haram dapat...",
+    "pilihan": {
+      "A": "Bagian fisik menjadi kebal terhadap nasihat agama",
+      "B": "Mengalir dalam darah dan membentuk kecenderungan maksiat pada syahwat",
+      "C": "Menunrunkan status sosial seseorang di mata masyarakat seketika",
+      "D": "Menghilangkan hak kepemilikan tanah warga sekitar",
+      "E": "Menyebabkan kerusakan lingkungan alam di sekitarnya"
+    },
+    "kunci": "B"
+  },
+  {
+    "id": 30,
+    "soal": "Perhatikan lafal berikut: (قُرَيْشٍ) jika dibaca waqaf. Hukum tajwid yang berlaku pada lafal tersebut adalah...",
+    "pilihan": {
+      "A": "Mad Thabi'i",
+      "B": "Mad Iwad",
+      "C": "Mad Layyin",
+      "D": "Mad Badal",
+      "E": "Mad Wajib Muttasil"
+    },
+    "kunci": "C"
+  },
+  {
+    "id": 31,
+    "soal": "Perhatikan QS. Ar-Rum: 41 berikut!\nظَهَرَ الْفَسَادُ فِي الْبَرِّ وَالْبَحْرِ بِمَا كَسَبَتْ أَيْدِي النَّاسِ ....\nPenyebab utama terjadinya kerusakan di bumi dan di lautan menurut ayat tersebut adalah...",
+    "pilihan": {
+      "A": "Bencana alam murni yang tidak bisa dihindari manusia",
+      "B": "Perilaku dan perbuatan dosa serta keserakahan tangan manusia",
+      "C": "Perkembangan ekosistem alam yang sudah terlalu tua",
+      "D": "Ujian dari Allah untuk menaikkan derajat semua makhluk",
+      "E": "Ketidakseimbangan rotasi bumi terhadap matahari"
+    },
+    "kunci": "B"
+  },
+  {
+    "id": 32,
+    "soal": "Hukum bacaan Mad Lazim Mukhaffaf Kilmi hanya terjadi di dua tempat dalam Al-Qur'an, yaitu pada surah Yunus. Kriteria utama terjadinya Mad Lazim Mukhaffaf Kilmi adalah apabila ada Mad Badal bertemu dengan...",
+    "pilihan": {
+      "A": "Huruf yang bertasydid dalam satu kata",
+      "B": "Huruf yang berharakat sukun asli (bukan karena waqaf) dalam satu kata",
+      "C": "Huruf hamzah di lain kata",
+      "D": "Huruf mati di akhir ayat karena waqaf",
+      "E": "Huruf ikhfa di awal surah"
+    },
+    "kunci": "B"
+  },
+  {
+    "id": 33,
+    "soal": "Perhatikan lafal berikut: (الحَاقَّةُ)\nHukum bacaan pada lafal tersebut adalah Mad Lazim Muthaqqal Kilmi. Panjang bacaan wajibnya adalah...",
+    "pilihan": {
+      "A": "2 harakat",
+      "B": "4 harakat",
+      "C": "5 harakat",
+      "D": "6 harakat (3 alif)",
+      "E": "7 harakat"
+    },
+    "kunci": "D"
+  },
+  {
+    "id": 34,
+    "soal": "Praktik curang mengurangi takaran dan timbangan dalam berniaga dilarang keras dalam Islam. Surah dalam Al-Qur'an yang secara khusus membahas kehancuran bagi para pelaku kecurangan timbangan ini adalah...",
+    "pilihan": {
+      "A": "QS. Al-Mutaffifin",
+      "B": "QS. Al-Infitar",
+      "C": "QS. At-Takwir",
+      "D": "QS. Al-Buruj",
+      "E": "QS. Al-Insyiqaq"
+    },
+    "kunci": "A"
+  },
+  {
+    "id": 35,
+    "soal": "Perhatikan potongan hadis riwayat Al-Baihaqi tentang menjaga lingkungan: 'Barangsiapa yang menanam sepohon pohon, lalu pohon itu berbuah, maka buah yang dimakan dari pohon itu menjadi... bagi penanamnya.'",
+    "pilihan": {
+      "A": "Hutang piutang",
+      "B": "Nilai investasi dunia",
+      "C": "Sedekah yang mengalir pahala",
+      "D": "Sumber kesombongan",
+      "E": "Zakat mal wajib"
+    },
+    "kunci": "C"
+  },
+  {
+    "id": 36,
+    "soal": "Pada permulaan surah (Fawatihussuwar), terdapat huruf (ن) dan (ق). Hukum bacaan tajwid yang tepat untuk kedua huruf tunggal tersebut adalah...",
+    "pilihan": {
+      "A": "Mad Lazim Harfi Mukhaffaf",
+      "B": "Mad Lazim Harfi Muthaqqal",
+      "C": "Mad Lazim Mukhaffaf Kilmi",
+      "D": "Mad Lazim Muthaqqal Kilmi",
+      "E": "Mad Thabi'i Harfi"
+    },
+    "kunci": "A"
+  },
+  {
+    "id": 37,
+    "soal": "Perhatikan lafal berikut: (الم) di awal surah Al-Baqarah. Pada huruf 'Lam' bertemu dengan 'Mim' terjadi hukum bacaan...",
+    "pilihan": {
+      "A": "Mad Lazim Harfi Mukhaffaf karena dibaca ringan",
+      "B": "Mad Lazim Harfi Muthaqqal karena idgam (ada proses memasukkan suara/tasydid)",
+      "C": "Mad Lazim Muthaqqal Kilmi karena berada dalam kata",
+      "D": "Mad Thabi'i Harfi karena panjangnya 2 harakat",
+      "E": "Mad Arid Lissukun Harfi karena berada di akhir kalimat"
+    },
+    "kunci": "B"
+  },
+  {
+    "id": 38,
+    "soal": "Dampak buruk dari perilaku tidak jujur (mengurangi timbangan) oleh para pedagang terhadap tatanan ekonomi masyarakat adalah...",
+    "pilihan": {
+      "A": "Meningkatnya daya beli masyarakat secara drastis",
+      "B": "Hilangnya rasa kepercayaan (trust) antarmanusia dan hancurnya keberkahan rezeki",
+      "C": "Melimpahnya barang dagangan di pasar tradisional",
+      "D": "Turunnya harga bahan pokok secara merata di seluruh wilayah",
+      "E": "Terjadinya inflasi global yang tidak dapat dikendalikan pemerintah"
+    },
+    "kunci": "B"
+  },
+  {
+    "id": 39,
+    "soal": "Perhatikan QS. Al-A'raf: 56. Allah SWT melarang manusia membuat kerusakan di muka bumi setelah...",
+    "pilihan": {
+      "A": "Manusia diberikan kekayaan yang melimpah ruhani",
+      "B": "Allah memperbaikinya (menciptakannya dalam keadaan baik dan seimbang)",
+      "C": "Datangnya hari kiamat yang menghancurkan alam semesta",
+      "D": "Diutusnya para nabi gelombang terakhir ke dunia",
+      "E": "Manusia berhasil mendirikan bangunan-bangunan megah"
+    },
+    "kunci": "B"
+  },
+  {
+    "id": 40,
+    "soal": "Kelompok huruf di bawah ini yang merupakan anggota dari hukum bacaan Mad Lazim Harfi (ditandai dengan kalimat (نَقَصَ عَسَلُكُمْ) adalah...",
+    "pilihan": {
+      "A": "ح ، ي ، ط , هـ , ر",
+      "B": "ا ، ب ، ت ، th ، ج",
+      "C": "ن ، ق ، ص ، ع ، s ، ل ، ك ، م",
+      "D": "د ، ż , ر ، z ، s ، sy",
+      "E": "ف ، ق , ك ، ل ، م ، ن"
+    },
+    "kunci": "C"
+  },
+  {
+    "id": 41,
+    "soal": "Di antara perilaku berikut, manakah yang mencerminkan upaya pelestarian lingkungan hidup sesuai dengan nilai-nilai Al-Qur'an?",
+    "pilihan": {
+      "A": "Membuka lahan perkebunan baru dengan cara membakar hutan lindung",
+      "B": "Membuang limbah cair pabrik langsung ke sungai tanpa diolah terlebih dahulu",
+      "C": "Melakukan reboisasi pada lahan gundul dan menghemat penggunaan air bersih",
+      "D": "Mengubah seluruh kawasan rawa menjadi pemukiman elit berbeton",
+      "E": "Memburu hewan-hewan langka untuk dijadikan koleksi pribadi di rumah"
+    },
+    "kunci": "C"
+  },
+  {
+    "id": 42,
+    "soal": "Rasulullah SAW bersabda bahwa pedagang yang jujur, amanah, dan terpercaya kelak di hari kiamat akan dikumpulkan bersama dengan...",
+    "pilihan": {
+      "A": "Para malaikat mukarrabin yang selalu bertasbih",
+      "B": "Para nabi, orang-orang siddiq, dan orang-orang yang mati syahid",
+      "C": "Para raja-raja muslim yang adil di dunia",
+      "D": "Orang-orang kaya yang rajin membangun masjid",
+      "E": "Para ahli tasawuf yang menjauhi urusan duniawi"
+    },
+    "kunci": "B"
+  },
+  {
+    "id": 43,
+    "soal": "Perhatikan lafal berikut: (طه)\nHuruf 'Tha' dan 'Ha' pada lafal tersebut harus dibaca sepanjang...",
+    "pilihan": {
+      "A": "1 harakat",
+      "B": "2 harakat (Mad Thabi'i Harfi / Mad Asli)",
+      "C": "4 harakat",
+      "D": "5 harakat",
+      "E": "6 harakat"
+    },
+    "kunci": "B"
+  },
+  {
+    "id": 44,
+    "soal": "Allah SWT berfirman dalam QS. Hud: 85: 'Dan wahai kaumku! Penuhilah takaran dan timbangan dengan adil, dan janganlah kamu merugikan manusia terhadap hak-hak mereka...' Ayat ini merupakan seruan Nabi... kepada kaumnya.",
+    "pilihan": {
+      "A": "Nabi Syu'aib AS kepada kaum Madyan",
+      "B": "Nabi Salih AS kepada kaum Samud",
+      "C": "Nabi Hud AS kepada kaum 'Ad",
+      "D": "Nabi Lut AS kepada kaum Sodom",
+      "E": "Nabi Musa AS kepada kaum Firaun"
+    },
+    "kunci": "A"
+  },
+  {
+    "id": 45,
+    "soal": "Lafal (آلْآنَ) mengandung hukum bacaan Mad Lazim Mukhaffaf Kilmi. Cara membaca lafal tersebut adalah dengan memanjangkan hamzah di depan sepanjang...",
+    "pilihan": {
+      "A": "2 harakat lalu dibaca samar",
+      "B": "4 harakat lalu dibaca memantul",
+      "C": "6 harakat lalu dibaca ringan tanpa mendengung pada lam sukunnya",
+      "D": "6 harakat lalu ditekan kuat pada lam yang bertasydid",
+      "E": "8 harakat dengan mendengung di pangkal hidung"
+    },
+    "kunci": "C"
+  },
+  {
+    "id": 46,
+    "soal": "Seseorang yang rasa ingin tahu dan rajin membaca Al-Qur'an secara tartil, namun di sisi lain ia sering melakukan kecurangan saat berjualan online dan suka mencela temannya di media sosial. Berdasarkan analisis integratif materi Al-Qur'an Hadis, orang tersebut mengalami kegagalan fungsi Al-Qur'an sebagai...",
+    "pilihan": {
+      "A": "Al-Huda (Petunjuk hidup) dan Al-Furqan (Pembeda benar dan salah)",
+      "B": "As-Syifa (Obat penawar fisik)",
+      "C": "Al-Kitab (Tulisan yang dibukukan)",
+      "D": "Al-Kalam (Firman Allah yang mukjizat)",
+      "E": "Adz-Dzikr (Pemberi peringatan lisan)"
+    },
+    "kunci": "A"
+  },
+  {
+    "id": 47,
+    "soal": "Mengapa hukum Idgam bigunnah tidak berlaku pada lafal (قِنْوَانٌ) padahal ada Nun Sukun bertemu dengan huruf Wawu (و)? Analisis hukum tajwidnya adalah...",
+    "pilihan": {
+      "A": "Karena huruf wawu di situ berfungsi sebagai mad asli",
+      "B": "Karena syarat idgam harus terjadi dalam dua kata yang berbeda, jika dalam satu kata wajib dibaca Izhar Mutlaq agar tidak merusak makna asli kata",
+      "C": "Karena nun sukun tersebut berharakat fathah tersembunyi",
+      "D": "Karena huruf wawu termasuk ke dalam golongan huruf halqi yang menghalangi dengung",
+      "E": "Karena lafal tersebut merupakan pengecualian riwayat Imam Syatibi khusus di akhir ayat"
+    },
+    "kunci": "B"
+  },
+  {
+    "id": 48,
+    "soal": "Perhatikan narasi berikut:\n'Di sebuah desa, terjadi eksploitasi hutan secara liar yang mengakibatkan mata air mengering dan satwa liar masuk ke pemukiman warga.'\nAyat Al-Qur'an yang paling tepat untuk menganalisis fenomena teologis-ekologis tersebut adalah...",
+    "pilihan": {
+      "A": "QS. Al-Baqarah: 261 tentang perumpamaan infak",
+      "B": "QS. Ar-Rum: 41 tentang dampak perbuatan maksiat tangan manusia di alam",
+      "C": "QS. Al-Kafirun: 1-6 tentang kebebasan berkeyakinan",
+        "D": "QS. Al-Baqarah: 168 tentang perintah memakan makanan tayyib",
+      "E": "QS. Ali Imran: 92 tentang menyedekahkan barang berharga"
+    },
+    "kunci": "B"
+  },
+  {
+    "id": 49,
+    "soal": "Jika dalam ujian mad, Anda menemukan kalimat yang mengandung hamzah istifham (pertanyaan) bertemu dengan hamzah wasal pada isim makrifah (seperti pada lafal آللَّهُ), hukum bacaan khusus ini disebut dengan...",
+    "pilihan": {
+      "A": "Mad Tamkin",
+      "B": "Mad Farqi",
+      "C": "Mad Badal",
+      "D": "Mad Shilah Thawilah",
+      "E": "Mad Iwad"
+    },
+    "kunci": "B"
+  },
+  {
+    "id": 50,
+    "soal": "Hubungan konseptual yang paling benar antara perintah menjaga kebersihan lingkungan dengan konsumsi makanan halal-tayyib dalam membentuk kesalehan individu adalah...",
+    "pilihan": {
+      "A": "Lingkungan yang bersih tidak ada hubungannya dengan kehalalan makanan yang masuk ke tubuh",
+      "B": "Mengonsumsi makanan tayyib (bersih dan bergizi) secara otomatis menuntut manusia menjaga kebersihan lingkungan sebagai tempat memproduksi makanan tersebut",
+      "C": "Makanan halal hanya dinilai dari cara menyembelihnya, bukan dari kebersihan tempat tumbuhnya",
+      "D": "Islam lebih memprioritaskan kelestarian lingkungan daripada kehalalan zat makanan seseorang",
+      "E": "Pedagang yang curang pasti akan selalu merusak ekosistem lingkungan tempat tinggalnya"
+    },
+    "kunci": "B"
+  }
+]
