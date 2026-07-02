@@ -1,7 +1,4 @@
-const SHEETS_API = "https://script.google.com/macros/s/AKfycbzDbNIchhQPV7ArylSoycP-Pb9VW-1olZc9WptkW6_q9uH4MjhDQO1EHi7QtpA7JTMA/exec";
-
 let configs = [];
-let allowedStudents = [];
 let activeMapel = null;
 let questions = [];
 let currentIndex = 0;
@@ -12,6 +9,11 @@ let timeLeft = 0;
 let isExamActive = false;
 let violationCount = 0;
 let isSubmitting = false;
+let finishInterval = null;
+let violationCooldown = false;
+
+// Jika ingin memakai exec URL langsung dari client, pasang di sini:
+const SHEETS_API = "https://script.google.com/macros/s/AKfycbx70PJajrMr_Q6mh2xd4aHgkJfm3PX6T92hbhHbOn-ke-XrVzFB2tuqX28Bl0qRWL4I/exec";
 
 async function fetchJson(url) {
     const res = await fetch(url);
@@ -20,21 +22,40 @@ async function fetchJson(url) {
 }
 
 async function loadConfigData() {
-    return fetchJson(`${SHEETS_API}?type=config`);
+    if (SHEETS_API) return fetchJson(`${SHEETS_API}?type=config`);
+    return Promise.reject(new Error('SHEETS_API tidak dikonfigurasi'));
 }
 
 async function loadStudentsData() {
-    return fetchJson(`${SHEETS_API}?type=students`);
+    if (SHEETS_API) return fetchJson(`${SHEETS_API}?type=students`);
+    return Promise.reject(new Error('SHEETS_API tidak dikonfigurasi'));
 }
 
 async function loadSoalData(idMapelOrPath) {
-    if (!idMapelOrPath) throw new Error("file_soal/id_mapel tidak ditemukan.");
+    if (!idMapelOrPath) throw new Error('file_soal/id_mapel tidak ditemukan.');
 
-    if (idMapelOrPath.startsWith("data/")) {
+    if (String(idMapelOrPath).startsWith('data/')) {
         return fetchJson(idMapelOrPath);
     }
 
-    return fetchJson(`${SHEETS_API}?type=soal&id_mapel=${encodeURIComponent(idMapelOrPath)}`);
+    if (SHEETS_API) return fetchJson(`${SHEETS_API}?type=soal&id_mapel=${encodeURIComponent(idMapelOrPath)}`);
+    return Promise.reject(new Error('SHEETS_API tidak dikonfigurasi'));
+}
+function runServerFunction(functionName, payload, successCallback, failureCallback) {
+    if (window.google && google.script && google.script.run) {
+        google.script.run
+            .withFailureHandler(err => {
+                console.error(functionName, "server error", err);
+                alert("Server gagal merespon. Pastikan aplikasi dijalankan lewat Google Apps Script.");
+                if (failureCallback) failureCallback(err);
+            })
+            .withSuccessHandler(successCallback)[functionName](payload);
+    } else {
+        const error = new Error("google.script.run tidak tersedia");
+        console.error(error);
+        alert("Aplikasi harus dijalankan dari Google Apps Script, bukan file lokal.");
+        if (failureCallback) failureCallback(error);
+    }
 }
 
 function normalizeQuestion(q) {
@@ -53,21 +74,39 @@ function normalizeQuestion(q) {
 
 window.onload = async () => {
     try {
-        configs = await loadConfigData();
-        const select = document.getElementById("mapelSelect");
+        if (SHEETS_API) {
+            configs = await loadConfigData();
+            const select = document.getElementById("mapelSelect");
+            select.innerHTML = '<option value="">Pilih Mata Pelajaran...</option>';
+            configs.forEach(m => {
+                const opt = document.createElement("option");
+                opt.value = m.id_mapel;
+                opt.textContent = m.nama_mapel;
+                select.appendChild(opt);
+            });
 
-        select.innerHTML = '<option value="">Pilih Mata Pelajaran...</option>';
-        configs.forEach(m => {
-            const opt = document.createElement("option");
-            opt.value = m.id_mapel;
-            opt.textContent = m.nama_mapel;
-            select.appendChild(opt);
-        });
-
-        allowedStudents = await loadStudentsData();
-    } catch (e) {
-        console.error("Gagal memuat config atau siswa", e);
-        alert("Gagal memuat data. Periksa koneksi atau setting Google Sheets endpoint.");
+            // muat daftar peserta untuk validasi client-side (opsi B)
+            try {
+                window.allowedStudents = await loadStudentsData();
+            } catch (e) {
+                window.allowedStudents = [];
+            }
+        } else {
+            runServerFunction("getAvailableMapel", null, data => {
+                configs = Array.isArray(data) ? data : [];
+                const select = document.getElementById("mapelSelect");
+                select.innerHTML = '<option value="">Pilih Mata Pelajaran...</option>';
+                configs.forEach(m => {
+                    const opt = document.createElement("option");
+                    opt.value = m.id_mapel;
+                    opt.textContent = m.nama_mapel;
+                    select.appendChild(opt);
+                });
+            });
+        }
+    } catch (err) {
+        console.error('Gagal memuat data via SHEETS_API', err);
+        alert('Gagal memuat data. Periksa koneksi atau setting Google Sheets endpoint.');
     }
 };
 
@@ -82,50 +121,76 @@ document.getElementById("btnStart").onclick = async () => {
         return alert("Harap lengkapi semua data dan pilih mata pelajaran!");
     }
 
-    if (allowedStudents.length === 0) {
-        return alert("Data peserta belum siap atau gagal dimuat. Silakan muat ulang halaman.");
+    // Jika tersedia SHEETS_API, gunakan client-fetch (opsi B)
+    if (SHEETS_API) {
+        try {
+            // validasi sederhana client-side menggunakan configs & allowedStudents
+            activeMapel = configs.find(c => c.id_mapel === idMapel);
+            if (!activeMapel) return alert('Data mata pelajaran tidak valid!');
+
+            const isAllowed = (window.allowedStudents || []).some(s =>
+                String(s.nomor).trim() === nomor &&
+                String(s.nama).toLowerCase().trim() === nama.toLowerCase() &&
+                String((s.sekolah||'')).toLowerCase().trim() === sekolah.toLowerCase()
+            );
+            if (!isAllowed) return alert('Maaf, Nama atau Nomor Ujian Anda tidak terdaftar sebagai peserta!');
+
+            if (String(activeMapel.token).toUpperCase() !== token.toUpperCase()) return alert('Token Salah!');
+
+            const soalKey = activeMapel.file_soal && !activeMapel.file_soal.startsWith('data/')
+                ? activeMapel.file_soal
+                : activeMapel.id_mapel;
+
+            const loaded = await loadSoalData(soalKey);
+            questions = Array.isArray(loaded) ? loaded.map(normalizeQuestion) : [];
+
+            if (questions.length === 0) {
+                throw new Error('Soal kosong atau format soal tidak valid.');
+            }
+
+            timeLeft = (parseInt(activeMapel.duration_minutes, 10) || 60) * 60;
+
+            document.getElementById('loginScreen').classList.add('hidden');
+            document.getElementById('examScreen').classList.remove('hidden');
+            document.getElementById('dispNama').textContent = nama;
+
+            isExamActive = true;
+            renderQuestion();
+            renderNav();
+            startTimer();
+            document.documentElement.requestFullscreen().catch(() => {});
+        } catch (e) {
+            console.error('Fetch error:', e);
+            alert('Terjadi kesalahan saat memuat soal. Periksa console dan pastikan endpoint sudah benar.');
+        }
+        return;
     }
 
-    activeMapel = configs.find(c => c.id_mapel === idMapel);
-    if (!activeMapel) return alert("Data mata pelajaran tidak valid!");
-
-    const isAllowed = allowedStudents.some(s =>
-        String(s.nomor).trim() === nomor &&
-        String(s.nama).toLowerCase().trim() === nama.toLowerCase()
-    );
-    if (!isAllowed) return alert("Maaf, Nama atau Nomor Ujian Anda tidak terdaftar sebagai peserta!");
-
-    if (String(activeMapel.token).toUpperCase() !== token.toUpperCase()) return alert("Token Salah!");
-
-    try {
-        const soalKey = activeMapel.file_soal && !activeMapel.file_soal.startsWith("data/")
-            ? activeMapel.file_soal
-            : activeMapel.id_mapel;
-
-        const loaded = await loadSoalData(soalKey);
-        questions = Array.isArray(loaded) ? loaded.map(normalizeQuestion) : [];
-
-        if (questions.length === 0) {
-            throw new Error("Soal kosong atau format soal tidak valid.");
+    // fallback: server-side via google.script.run
+    const payload = { nama, nomor, sekolah, id_mapel: idMapel, token };
+    runServerFunction('prepareExam', payload, result => {
+        if (!result || !result.success) {
+            return alert(result?.message || 'Gagal memulai ujian. Cek kembali informasi Anda.');
         }
 
-        timeLeft = (parseInt(activeMapel.duration_minutes, 10) || 60) * 60;
+        activeMapel = result.mapel;
+        questions = Array.isArray(result.questions) ? result.questions.map(normalizeQuestion) : [];
+        timeLeft = (parseInt(result.duration, 10) || 60) * 60;
 
-        document.getElementById("loginScreen").classList.add("hidden");
-        document.getElementById("examScreen").classList.remove("hidden");
+        if (questions.length === 0) {
+            return alert('Soal kosong atau format soal tidak valid.');
+        }
 
-        const dispNama = document.getElementById("dispNama");
-        if (dispNama) dispNama.textContent = nama;
+        document.getElementById('loginScreen').classList.add('hidden');
+        document.getElementById('examScreen').classList.remove('hidden');
+        document.getElementById('dispNama').textContent = nama;
 
         isExamActive = true;
         renderQuestion();
         renderNav();
         startTimer();
         document.documentElement.requestFullscreen().catch(() => {});
-    } catch (e) {
-        console.error("Fetch error:", e);
-        alert("Terjadi kesalahan saat memuat soal. Periksa console dan pastikan endpoint sudah benar.");
-    }
+    });
 };
 
 function renderQuestion() {
@@ -236,8 +301,6 @@ function startTimer() {
     }, 1000);
 }
 
-let finishInterval = null;
-
 async function finishExam(isAuto = false) {
     if (isSubmitting) return;
 
@@ -307,25 +370,65 @@ async function executeSubmission() {
     document.getElementById("resSalah").textContent = salah;
     document.getElementById("resKosong").textContent = kosong;
 
-    const body = new FormData();
-    body.append(activeMapel.entry_nama, document.getElementById("nama").value);
-    body.append(activeMapel.entry_nomor, document.getElementById("nomor").value);
-    body.append(activeMapel.entry_asal_sekolah, document.getElementById("sekolah").value);
-    body.append(activeMapel.entry_nilai, nilai);
+    const payload = {
+        nama: document.getElementById("nama").value,
+        nomor: document.getElementById("nomor").value,
+        sekolah: document.getElementById("sekolah").value,
+        id_mapel: activeMapel.id_mapel,
+        score: nilai,
+        stats: { benar, salah, kosong },
+        answers: userAnswers
+    };
+    // Jika tersedia SHEETS_API, kirim lewat POST ke webapp
+    if (SHEETS_API) {
+        try {
+            const res = await fetch(SHEETS_API, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ action: 'submit', payload })
+            });
 
-    try {
-        await fetch(activeMapel.url_form, { method: "POST", mode: "no-cors", body });
+            // Apps Script biasanya merespon JSON
+            const json = await res.json().catch(() => null);
+            if (!json || !json.success) {
+                console.error('Submit result error', json);
+                alert((json && json.message) || 'Gagal mengirim data. Coba lagi atau hubungi admin.');
+                isSubmitting = false;
+                return;
+            }
+
+            document.getElementById('examScreen').classList.add('hidden');
+            document.getElementById('resultScreen').classList.remove('hidden');
+            if (document.fullscreenElement) document.exitFullscreen().catch(() => {});
+            return;
+        } catch (err) {
+            console.error('Submit error:', err);
+            alert('Gagal mengirim data. Coba lagi atau hubungi admin.');
+            isSubmitting = false;
+            return;
+        }
+    }
+
+    // fallback ke google.script.run
+    runServerFunction("submitExamResult", payload, result => {
+        if (!result || !result.success) {
+            console.error("Submit result error", result);
+            alert(result?.message || "Gagal mengirim data. Coba lagi atau hubungi admin.");
+            isSubmitting = false;
+            return;
+        }
+
         document.getElementById("examScreen").classList.add("hidden");
         document.getElementById("resultScreen").classList.remove("hidden");
 
         if (document.fullscreenElement) {
             document.exitFullscreen().catch(() => {});
         }
-    } catch (e) {
-        console.error("Submit error:", e);
+    }, err => {
+        console.error("Submit error:", err);
         alert("Gagal mengirim data. Coba lagi atau hubungi admin.");
         isSubmitting = false;
-    }
+    });
 }
 
 document.getElementById("btnFinish").onclick = () => finishExam();
@@ -345,8 +448,6 @@ function toggleMinimizePC() {
 
 document.getElementById("btnToggleNav").onclick = toggleSidebar;
 document.getElementById("btnMinimizeNav").onclick = toggleMinimizePC;
-
-let violationCooldown = false;
 
 function handleViolation(reason) {
     if (!isExamActive || isSubmitting || violationCooldown) return;
