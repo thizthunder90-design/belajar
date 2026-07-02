@@ -29,9 +29,11 @@ async function loadStudentsData() {
 
 async function loadSoalData(idMapelOrPath) {
     if (!idMapelOrPath) throw new Error("file_soal/id_mapel tidak ditemukan.");
+
     if (idMapelOrPath.startsWith("data/")) {
         return fetchJson(idMapelOrPath);
     }
+
     return fetchJson(`${SHEETS_API}?type=soal&id_mapel=${encodeURIComponent(idMapelOrPath)}`);
 }
 
@@ -55,7 +57,6 @@ window.onload = async () => {
         const select = document.getElementById("mapelSelect");
 
         select.innerHTML = '<option value="">Pilih Mata Pelajaran...</option>';
-
         configs.forEach(m => {
             const opt = document.createElement("option");
             opt.value = m.id_mapel;
@@ -97,8 +98,16 @@ document.getElementById("btnStart").onclick = async () => {
     if (String(activeMapel.token).toUpperCase() !== token.toUpperCase()) return alert("Token Salah!");
 
     try {
-        const loaded = await loadSoalData(activeMapel.file_soal || activeMapel.id_mapel);
+        const soalKey = activeMapel.file_soal && !activeMapel.file_soal.startsWith("data/")
+            ? activeMapel.file_soal
+            : activeMapel.id_mapel;
+
+        const loaded = await loadSoalData(soalKey);
         questions = Array.isArray(loaded) ? loaded.map(normalizeQuestion) : [];
+
+        if (questions.length === 0) {
+            throw new Error("Soal kosong atau format soal tidak valid.");
+        }
 
         timeLeft = (parseInt(activeMapel.duration_minutes, 10) || 60) * 60;
 
@@ -129,6 +138,8 @@ function renderQuestion() {
     }
 
     const q = questions[currentIndex];
+    if (!q) return;
+
     document.getElementById("qNumber").textContent = currentIndex + 1;
     document.getElementById("qText").textContent = q.soal;
 
